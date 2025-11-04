@@ -59,6 +59,11 @@ section {
     margin-bottom: 18%;
 }
 
+.section-shop-items {
+    width: 80%;
+    margin: 0 auto;
+}
+
 section img {
     width: 100%;
 }
@@ -300,6 +305,37 @@ footer {
     margin-left: 0 auto;
     margin-top: 35px;
     border-bottom: 1px solid black;
+}
+
+.shop-the-latest-shop-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.containers-shop-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.shop-items-left-side {
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.shop-items-right-side {
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #newsletter {
