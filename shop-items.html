@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shop</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,10 +27,11 @@
             <div class="header-icon-bar">
                 <img src="./img/search.png" alt="search" class="header-icon-bar-icons">
                 <img src="./img/shopping-cart.png" alt="shopping-cart" class="header-icon-bar-icons">
-                <img src="./img/profile.png" alt="profile" class="header-icon-bar-icons">
+                <a href="my-account.html"><img src="./img/profile.png" alt="profile" class="header-icon-bar-icons"></a>
             </div>
         </div>
     </header>
+    <hr class="header-line">
 
     <div class="section-shop-items">
         <div class="shop-the-latest-shop-items">
@@ -38,10 +39,83 @@
         </div>
         <div class="containers-shop-items">
             <div class="shop-items-left-side">
-                <input type="search" placeholder="Search...">
+                <div class="shop-items-search">
+                    <input type="search" placeholder="Search..." id="search">
+                    <a href=""><img src="/img/search.jpg" alt="Search" class="search-image"></a>
+                </div>
+                <select name="shop-by" id="shop-by">
+                    <option value="">Shop By</option>
+                    <option value="1">Earrings</option>
+                    <option value="2">Sets</option>
+                    <option value="3">Necklaces</option>
+                </select>
+                <select name="shop-by" id="shop-by">
+                    <option value="">Sort By</option>
+                    <option value="1">By relevance</option>
+                    <option value="2">From cheap to expensive</option>
+                    <option value="3">From expensive to cheap</option>
+                </select>
+                <img src="/img/Price line.png" alt="Price line" class="price-line-shop-items">
+                <div class="price-info">
+                    <p class="small-text-grey">Price: $40 - $180</p>
+                    <a href="">
+                        <p class="small-text-gold">Filter</p>
+                    </a>
+                </div>
+                <div class="switches-shop-items">
+                    <div class="switch-shop-items">
+                        <label for="" class="middle-black-text">On Sale</label>
+                        <!-- From Uiverse.io by ErzenXz -->
+                        <label class="toggle-switch">
+                            <input type="checkbox">
+                            <div class="toggle-switch-background">
+                                <div class="toggle-switch-handle"></div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="switch-shop-items">
+                        <label for="" class="middle-black-text">In Stock</label>
+                        <!-- From Uiverse.io by ErzenXz -->
+                        <label class="toggle-switch">
+                            <input type="checkbox">
+                            <div class="toggle-switch-background">
+                                <div class="toggle-switch-handle"></div>
+                            </div>
+                    </div>
+                    </label>
+                </div>
             </div>
             <div class="shop-items-right-side">
-
+                <div class="shop-items-item">
+                    <img src="./img/item-1.png" alt="Lira Earrings" class="latest-jewellery-images">
+                    <p class="desc-text">Lira Earrings</p>
+                    <p class="light-text">$ 20,00</p>
+                </div>
+                <div class="shop-items-item">
+                    <img src="./img/item-2.png" alt="Hal Earrings" class="latest-jewellery-images">
+                    <p class="desc-text">Hal Earrings</p>
+                    <p class="light-text">$ 25,00</p>
+                </div>
+                <div class="shop-items-item">
+                    <img src="./img/item-3.png" alt="Kaede Hair Pin Set Of 3" class="latest-jewellery-images">
+                    <p class="desc-text">Kaede Hair Pin Set Of 3</p>
+                    <p class="light-text">$ 30,00</p>
+                </div>
+                <div class="shop-items-item">
+                    <img src="./img/item-4.png" alt="Hair Pin Set Of 3" class="latest-jewellery-images">
+                    <p class="desc-text">Hair Pin Set Of 3</p>
+                    <p class="light-text">$ 30,00</p>
+                </div>
+                <div class="shop-items-item">
+                    <img src="./img/item-5.png" alt="Plaine Necklace" class="latest-jewellery-images">
+                    <p class="desc-text">Plaine Necklace</p>
+                    <p class="light-text">$ 19,00</p>
+                </div>
+                <div class="shop-items-item">
+                    <img src="./img/item-6.png" alt="Yuki Hair Pin Set Of 3" class="latest-jewellery-images">
+                    <p class="desc-text">Yuki Hair Pin Set Of 3</p>
+                    <p class="light-text">$ 29,00</p>
+                </div>
             </div>
         </div>
     </div>
